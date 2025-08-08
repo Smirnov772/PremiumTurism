@@ -1,0 +1,21 @@
+{
+  "header": {
+    "about": "معلومات عنا",
+    "services": "الخدمات",
+    "application": "تقديم طلب",
+    "applicationForm": "نموذج الطلب",
+    "applicationSent": "تم إرسال طلبك بنجاح!"
+  },
+  "services": {
+    "culture": "الترفيه الثقافي",
+    "nature": "الطبيعة",
+    "extreme": "المغامرات"
+  },
+  "form": {
+    "name": "الاسم",
+    "phone": "الهاتف",
+    "email": "البريد الإلكتروني",
+    "message": "الرسالة",
+    "submit": "إرسال"
+  }
+}

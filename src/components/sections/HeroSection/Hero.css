@@ -1,0 +1,8 @@
+.hero {
+    background-image: url('../../../assets/image/hero.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* или нужная высота */
+    position: relative;
+}

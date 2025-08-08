@@ -1,0 +1,136 @@
+@import url(./assets/fonts/stylesheet.css);
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family:
+    "El Messiri",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #000000;
+  background-color: #ede8e1;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #ede8e1;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family:
+    "Cormorant Garamond",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+
+}
+
+
+a {
+
+  text-decoration: none;
+}
+
+/*a:hover {*/
+/*  text-decoration: underline;*/
+/*}*/
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: "El Messiri", serif;
+}
+
+input,
+textarea {
+  font-family: "El Messiri", serif;
+}
+
+/* Reset default button and input styles */
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+/* Scrollbar styling */
+/*::-webkit-scrollbar {*/
+/*  width: 1px;*/
+/*}*/
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffd6a6;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e5c194;
+}
+
+/* src/index.css */
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Примеры адаптации стилей */
+.rtl .text-left {
+  text-align: right !important;
+}
+
+.rtl .text-right {
+  text-align: left !important;
+}
+
+.rtl .ml-3 {
+  margin-left: 0 !important;
+  margin-right: 1rem !important;
+}
+
+.rtl .mr-3 {
+  margin-right: 0 !important;
+  margin-left: 1rem !important;
+}
+
+.rtl .flex-row {
+  flex-direction: row-reverse;
+}
+
+/* Адаптация иконок */
+.rtl .icon-arrow {
+  transform: scaleX(-1);
+}

@@ -1,0 +1,9 @@
+export const ctaData = {
+	title: "Оставьте заявку на незабываемое путешествие",
+	subtitle: "Наши менеджеры свяжутся с вами для уточнения деталей",
+	buttons: [
+		{ id: "request", text: "Оставить заявку" },
+		{ id: "telegram", text: "Написать в Telegram" },
+		{ id: "whatsapp", text: "Написать в WhatsApp" }
+	]
+};

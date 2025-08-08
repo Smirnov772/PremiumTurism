@@ -1,0 +1,25 @@
+export const hotels = [
+	{
+		id: 1,
+		name: "Four Seasons",
+		description: "в бывшем дворце"
+	},
+	{
+		id: 2,
+		name: "Astoria",
+		description: "историческая"
+	}
+];
+
+export const restaurants = [
+	{
+		id: 1,
+		name: "Palkin",
+		description: "русская кухня (с 1785 года)"
+	},
+	{
+		id: 2,
+		name: "Mansarda",
+		description: "авторские блюда с видом на Исаакий"
+	}
+];

@@ -1,0 +1,22 @@
+
+{
+  "header": {
+    "about": "About Us",
+    "services": "Services",
+    "application": "Leave Application",
+    "applicationForm": "Application Form",
+    "applicationSent": "Your application has been sent!"
+  },
+  "services": {
+    "culture": "Cultural Recreation",
+    "nature": "Nature",
+    "extreme": "Extreme"
+  },
+  "form": {
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit"
+  }
+}

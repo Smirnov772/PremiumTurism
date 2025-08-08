@@ -1,0 +1,133 @@
+
+.App {
+    width: 100%;
+    min-height: 100vh;
+}
+section {
+    padding: 60px 134px;
+}
+
+@media (max-width: 991px) {
+    .desktop-only {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .tablet-only {
+        display: none;
+    }
+}
+
+.h1_mod_size {
+line-height: 100%;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 90px;
+
+}
+
+.h2_mod_size {
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.text_mod_size-normal {
+    color: #000000;
+    font-size: 26px;
+    line-height: 1.5;
+    leter-spacing: 4%;
+    line-height: 123%;
+}
+.text_color-white{
+    z-index: 50;
+    color: white;
+}
+.h3_mod_size {
+    font-size: 24px;
+}
+
+.text3_mod_size {
+    font-size: 64px;
+}
+
+.text_style-white {
+    color: #D3D3D3;
+}
+
+.text_style-blue {
+    color: #2170bd;
+}
+
+/* Tablet styles (768px to 1024px) */
+@media (max-width: 1134px) {
+    section {
+        padding: 80px 40px;
+    }
+
+
+
+    .h2_mod_size {
+        font-size: 34px; /* Using Tablet specific size */
+    }
+
+    .text_mod_size-normal {
+        font-size: 26px; /* Using Tablet specific size */
+    }
+
+    .h3_mod_size {
+        font-size: 20px; /* Using Tablet specific size */
+    }
+
+    .text3_mod_size {
+        font-size: 58px; /* Using Tablet specific size */
+    }
+}
+
+/* Mobile styles (Below 768px) */
+@media (max-width: 768px) {
+    section {
+        padding: 80px 20px;
+    }
+
+    .h1_mod_size {
+        font-size: 56px; /* Using Mobile specific size */
+    }
+
+    .h2_mod_size {
+        font-size: 24px; /* Mobile size is same as Tablet in your code */
+    }
+
+    .text_mod_size-normal {
+        font-size: 14px; /* Mobile size is same as Tablet */
+    }
+
+    .h3_mod_size {
+        font-size: 20px; /* Mobile size is same as Tablet */
+    }
+
+    .text3_mod_size {
+        font-size: 42px; /* Mobile size is same as Tablet */
+    }
+}
+
+@media (max-width: 486px) {
+    section {
+        padding: 40px 10px;
+    }
+
+    .h1_mod_size {
+        font-size: 44px; /* Using Mobile specific size */
+    }
+
+
+
+    /*.text_mod_size-normal {*/
+    /*    font-size: 12px; !* Mobile size is same as Tablet *!*/
+    /*}*/
+
+
+    /*.text3_mod_size {*/
+    /*    font-size: 22px; !* Mobile size is same as Tablet *!*/
+    /*}*/
+}

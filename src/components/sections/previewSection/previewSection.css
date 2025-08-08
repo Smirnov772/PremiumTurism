@@ -1,0 +1,46 @@
+
+.grid > div {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    height: 100%;
+}
+
+.grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+/* Минимальная высота для изображений */
+.min-h-\[300px\] {
+    min-height: 300px;
+}
+
+@media (min-width: 768px) {
+    .min-h-\[300px\] {
+        min-height: 400px;
+    }
+}
+
+/* Эффекты при наведении */
+.group:hover img {
+    transform: scale(1.05);
+}
+
+/* Анимация для текста при наведении */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.group:hover .absolute:last-child p {
+    animation: fadeInUp 0.5s ease forwards;
+}

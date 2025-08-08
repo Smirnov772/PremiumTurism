@@ -1,0 +1,7 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Subtract">
+<path d="M18 16.49L26 11.5H10L18 16.49Z" fill="#24A3BD"/>
+<path d="M18 18.5L10 13.5V23.5H26V13.5L18 18.5Z" fill="#24A3BD"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18 36C8.05887 36 0 27.9411 0 18C0 8.05887 8.05887 0 18 0C27.9411 0 36 8.05887 36 18C36 27.9411 27.9411 36 18 36ZM26 9.5C27.1 9.5 28 10.4 28 11.5V23.5C28 24.6 27.1 25.5 26 25.5H10C8.9 25.5 8 24.6 8 23.5V11.5C8 10.4 8.9 9.5 10 9.5H26Z" fill="#24A3BD"/>
+</g>
+</svg>
