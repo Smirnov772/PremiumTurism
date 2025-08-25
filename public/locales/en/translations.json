@@ -1,0 +1,136 @@
+{
+  "header": {
+    "about": "About Us",
+    "services": "Services",
+    "application": "Submit Application",
+    "applicationForm": "Application Form",
+    "applicationSent": "Your application has been sent!"
+  },
+  "hero": {
+    "title": "Premium Tourism",
+    "title1": "St. Petersburg",
+    "subtitle": "Individual approach to each tour, for your comfort and dream fulfillment"
+  },
+  "preview": {
+    "title": "Immerse yourself in the luxury of history, culture, and nature.",
+    "description": "Discover the Northern Palmyra in all its splendor with unique tours and experiences created for the most discerning travelers.",
+    "altBalet": "City theaters and concerts",
+    "altBalet2": "",
+    "altCirk": "Catherine Palace",
+    "altErmitajh": "Hermitage",
+    "altPetergof": "Peterhof",
+    "baletText": "Description of City Theaters and Concerts",
+    "cirkText": "Description of Catherine Palace",
+    "ermitajhText": "Description of the Hermitage",
+    "petergofText": "Description of Peterhof"
+  },
+  "CulturalSection": {
+    "title": "Cultural Recreation",
+    "description": "Touch the grandeur of the Imperial era: exclusive tours to closed palaces and author's routes through bohemian St. Petersburg",
+    "img1Alt": "Unique photo session",
+    "img1Title": "Unique photo session",
+    "img2Alt": "Private water tours",
+    "img2Title": "Private water tours",
+    "img3Alt": "St. Petersburg Palaces",
+    "img3Title": "St. Petersburg Palaces",
+    "img4Alt": "City museums",
+    "img4Title": "City museums",
+    "img5Alt": "Carriage ride",
+    "img5Title": "Carriage ride",
+    "learnMore": "Learn More",
+    "modalSubtitle": "Key features:",
+    "modalContent1": "Our active recreation programs offer unique opportunities to explore the region's nature and cultural heritage. Regardless of the season, we organize exciting activities combining physical activity with educational elements.",
+    "modalContent2": "All activities are conducted under the guidance of certified instructors using modern equipment. We guarantee safety and a rich program for all participants.",
+    "modalFeature1": "Tours of national parks and reserves",
+    "modalFeature2": "Seasonal activities (skiing, rafting, cycling tours)",
+    "modalFeature3": "Cultural events and workshops",
+    "modalFeature4": "Professional equipment rental",
+    "closeModal": "Close"
+  },
+  "ExtremeSection": {
+    "title": "Extreme Tourism",
+    "description": "Perfect for those seeking thrill and new emotions!",
+    "img1Alt": "Unique photo session",
+    "img1Title": "Unique photo session",
+    "img2Alt": "Private water tours",
+    "img2Title": "Private water tours",
+    "img3Alt": "Palace interior",
+    "img3Title": "Imperial Palaces of Peterhof",
+    "img4Alt": "Bohemian St. Petersburg",
+    "img4Title": "City art spaces",
+    "img5Alt": "Theater performance",
+    "img5Title": "Exclusive theater evenings",
+    "learnMore": "Learn More",
+    "modalSubtitle": "Key features:",
+    "modalContent1": "Our active recreation programs offer unique opportunities to explore the region's nature and cultural heritage. Regardless of the season, we organize exciting activities combining physical activity with educational elements.",
+    "modalContent2": "All activities are conducted under the guidance of certified instructors using modern equipment. We guarantee safety and a rich program for all participants.",
+    "modalFeature1": "Tours of national parks and reserves",
+    "modalFeature2": "Seasonal activities (skiing, rafting, cycling tours)",
+    "modalFeature3": "Cultural events and workshops",
+    "modalFeature4": "Professional equipment rental",
+    "closeModal": "Close"
+  },
+  "OutdoorSection": {
+    "title": "Nature Recreation",
+    "description": "Authentic experiences and unity with nature in the Leningrad Region",
+    "img1Alt": "Cottage retreat: soul recharge",
+    "img1Title": "Cottage retreat: soul recharge",
+    "img2Alt": "Husky walks and reindeer encounters",
+    "img2Title": "Husky walks and reindeer encounters",
+    "img3Alt": "Traditional tea ceremony",
+    "img3Title": "Traditional tea ceremony",
+    "img4Alt": "Russian banya (Russian SPA)",
+    "img4Title": "Russian banya (Russian SPA)",
+    "img5Alt": "Horseback riding",
+    "img5Title": "Horseback riding",
+    "learnMore": "Learn More",
+    "modalSubtitle": "Key features:",
+    "modalContent1": "Our active recreation programs offer unique opportunities to explore the region's nature and cultural heritage. Regardless of the season, we organize exciting activities combining physical activity with educational elements.",
+    "modalContent2": "All activities are conducted under the guidance of certified instructors using modern equipment. We guarantee safety and a rich program for all participants.",
+    "modalFeature1": "Tours of national parks and reserves",
+    "modalFeature2": "Seasonal activities (skiing, rafting, cycling tours)",
+    "modalFeature3": "Cultural events and workshops",
+    "modalFeature4": "Professional equipment rental",
+    "closeModal": "Close"
+  },
+  "WhyUsSection": {
+    "title": "Why Choose Us?",
+    "img1Alt": "Premium Transfers",
+    "img1Title": "VIP Premium Transfers with personal driver. From airport to hotel, between attractions, or for the entire stay duration.",
+    "img2Alt": "Exclusive Access",
+    "img2Title": "Exclusive Access. Closed palaces, private collections, and off-the-beaten-path locations - exclusively for our clients",
+    "img3Alt": "Instructors, insurance",
+    "img3Title": "Safety. Licensed instructors, insurance, and medical support for extreme tours"
+  },
+  "services": {
+    "culture": "Cultural Recreation",
+    "nature": "Nature",
+    "extreme": "Extreme"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are a team of professionals ready to offer you the best services in the tourism industry."
+  },
+  "application": {
+    "title": "Submit Application",
+    "description": "Fill out the form below and we will contact you shortly."
+  },
+  "applicationForm": {
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit"
+  },
+  "applicationSent": {
+    "title": "Your Application Has Been Sent",
+    "description": "We will contact you shortly."
+  },
+  "form": {
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit"
+  }
+}

@@ -4,9 +4,7 @@ import {useTranslation} from 'react-i18next';
 import './WhyUsSection.css';
 import img1 from './dostup.png';
 import img2 from './muzeidvor.png';
-import img3 from './water.png';
 import img4 from './ysypovskie.png';
-import img5 from './zagorod.png';
 
 function WhyUsSection() {
     const {t} = useTranslation();
@@ -23,7 +21,7 @@ function WhyUsSection() {
 
     // Анимации для изображений
     const imageVariants = {
-        hidden: {opacity: 0, y: 50},
+        hidden: {opacity: 0, y: 20},
         visible: (custom) => ({
             opacity: 1,
             y: 0,
@@ -74,9 +72,9 @@ function WhyUsSection() {
                             transition={{duration: 0.3}}
                         />
                         <div
-                            className="absolute inset-0 bg-black opacity-0 group-hover:opacity-30 transition-opacity duration-500 z-10"></div>
+                            className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-500 z-10"></div>
                         <div className="absolute inset-0 flex items-center z-20 p-4">
-                            <h3 className="text-white md:text-2xl font-medium leading-6 group-hover:opacity-100 opacity-0 transition-opacity duration-500">
+                            <h3 className="text-white md:text-3xl font-bold leading-6 group-hover:opacity-100 opacity-0 transition-opacity duration-500">
                                 {t("WhyUsSection.img1Title")}
                             </h3>
                         </div>
@@ -98,9 +96,9 @@ function WhyUsSection() {
                             transition={{duration: 0.3}}
                         />
                         <div
-                            className="absolute inset-0 bg-black opacity-0 group-hover:opacity-30 transition-opacity duration-500 z-10"></div>
+                            className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-500 z-10"></div>
                         <div className="absolute inset-0 flex items-center z-20 p-4">
-                            <h3 className="text-white md:text-2xl font-medium leading-6  group-hover:opacity-100 opacity-0 transition-opacity duration-500">
+                            <h3 className="text-white md:text-3xl font-bold leading-6  group-hover:opacity-100 opacity-0 transition-opacity duration-500">
                                 {t("WhyUsSection.img2Title")}
                             </h3>
                         </div>
@@ -124,9 +122,9 @@ function WhyUsSection() {
                             transition={{duration: 0.3}}
                         />
                         <div
-                            className="absolute inset-0 bg-black opacity-0 group-hover:opacity-30 transition-opacity duration-500 z-10"></div>
+                            className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-500 z-10"></div>
                         <div className="absolute inset-0 flex items-center z-20 p-4">
-                            <h3 className="text-white md:text-2xl font-medium leading-6 group-hover:opacity-100 opacity-0 transition-opacity duration-500">
+                            <h3 className="text-white md:text-3xl font-bold leading-6 group-hover:opacity-100 opacity-0 transition-opacity duration-500">
                                 {t("WhyUsSection.img3Title")}
                             </h3>
                         </div>

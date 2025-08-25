@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import './PreviewSection.css';
 import { useTranslation } from 'react-i18next';
 import balet from './balet.png';
-import cirk from './cirk.png';
+import img1 from './image2.png';
 import ermitajh from './ermitajh.png';
-import petergof from './petergof.png';
+import petergof from './petergof.jpg';
 
 function PreviewSection() {
     const { t } = useTranslation();
@@ -67,7 +67,7 @@ function PreviewSection() {
                 </motion.div>
 
                 {/* Сетка изображений с анимациями */}
-                <div className="grid grid-cols-6 grid-rows-2 gap-4 mx-auto">
+                <div className="grid grid-cols-6  gap-4 mx-auto">
 
 
                     <motion.div
@@ -81,11 +81,11 @@ function PreviewSection() {
                         <motion.img
                             src={balet}
                             alt={t("preview.altBalet")}
-                            className="w-full h-full object-cover min-h-[300px]"
+                            className="w-full h-full object-cover "
                             variants={imageInnerVariants}
                             whileHover="hover"
                         />
-                        <h2 className=" absolute inset-0 h2_mod_size text-right group-hover:opacity-0 transition-opacity duration-300 text_color-white px-5 py-2">
+                        <h2 className=" absolute inset-0 h2_mod_size text-right group-hover:opacity-0 transition-opacity duration-300 text_color-white px-2 md:px-5 py-2">
                             {t("preview.altBalet")}
                             <br />
                             {t("preview.altBalet2")}
@@ -109,12 +109,12 @@ function PreviewSection() {
                         variants={imageVariants}
                     >
                         <motion.img
-                            src={cirk}
+                            src={img1}
                             alt={t("preview.altCirk")}
-                            className="w-full h-full object-cover min-h-[300px]"
+                            className="w-full h-full object-cover "
                             variants={imageInnerVariants}
                             whileHover="hover"
-                        />  <h2 className=" absolute inset-0 h2_mod_size text-right group-hover:opacity-0 transition-opacity duration-300 text_color-white px-5 py-2">
+                        />  <h2 className=" absolute inset-0 h2_mod_size text-right group-hover:opacity-0 transition-opacity duration-300 text_color-white px-2 md:px-5 py-2">
                         {t("preview.altCirk")}
 
                     </h2>
@@ -140,11 +140,11 @@ function PreviewSection() {
                         <motion.img
                             src={ermitajh}
                             alt={t("preview.altErmitajh")}
-                            className="w-full h-full object-cover min-h-[300px]"
+                            className="w-full h-full object-cover "
                             variants={imageInnerVariants}
                             whileHover="hover"
                         />
-                        <h2 className=" absolute inset-0 h2_mod_size text-right group-hover:opacity-0 transition-opacity duration-300 text_color-white px-5 py-2">
+                        <h2 className=" absolute inset-0 h2_mod_size text-right group-hover:opacity-0 transition-opacity duration-300 text_color-white px-2 md:px-5 py-2">
                             {t("preview.altErmitajh")}
 
                         </h2>
@@ -170,11 +170,11 @@ function PreviewSection() {
                         <motion.img
                             src={petergof}
                             alt={t("preview.altPetergof")}
-                            className="w-full h-full object-cover min-h-[300px]"
+                            className="w-full h-full object-cover "
                             variants={imageInnerVariants}
                             whileHover="hover"
                         />
-                        <h2 className=" absolute inset-0 h2_mod_size text-right group-hover:opacity-0 transition-opacity duration-300 text_color-white px-5 py-2">
+                        <h2 className=" absolute inset-0 h2_mod_size text-right group-hover:opacity-0 transition-opacity duration-300 text_color-white px-2 md:px-5 py-2">
                             {t("preview.altPetergof")}
 
                         </h2>

@@ -52,26 +52,19 @@ const Header = () => {
         alert(t('header.applicationSent'));
     };
 
-    return (
-        <>
+    return (<>
             <AnimatePresence>
-                {menuOpen && (
-                    <motion.div
+                {menuOpen && (<motion.div
                         initial={{opacity: 0}}
                         animate={{opacity: 1}}
                         exit={{opacity: 0}}
                         className="fixed inset-0 bg-black/70 backdrop-blur-md bg-opacity-50 z-40 lg:hidden"
                         onClick={() => setMenuOpen(false)}
-                    />
-                )}
+                    />)}
             </AnimatePresence>
 
             <header
-                className={`header fixed top-0 left-0 w-full z-45  transition-all duration-300 ${
-                    isScrolled
-                        ? 'bg-white text-gray-900 shadow-md'
-                        : 'bg-white/20 text-gray-300 backdrop-blur-sm'
-                }`}
+                className={`header fixed top-0 left-0 w-full z-45  transition-all duration-300 ${isScrolled ? 'bg-[#ede8e1]/80 z-100 text-gray-900 shadow-md backdrop-blur-xl' : 'bg-white/20 text-gray-300 backdrop-blur-sm'}`}
             >
                 <div className="container mx-auto px-4 py-3 flex items-center justify-between">
                     {/* Логотип */}
@@ -95,13 +88,11 @@ const Header = () => {
                                 onClick={() => setIsServicesOpen(!isServicesOpen)}
                             >
                                 {t('header.services')}
-                                <FaChevronDown className={`ml-1 transition-transform ${
-                                    isServicesOpen ? 'rotate-180' : ''
-                                }`}/>
+                                <FaChevronDown
+                                    className={`ml-1 transition-transform ${isServicesOpen ? 'rotate-180' : ''}`}/>
                             </button>
 
-                            {isServicesOpen && (
-                                <div
+                            {isServicesOpen && (<div
                                     className="absolute text-xl top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-md overflow-hidden z-50">
                                     <a
                                         href="#cultural"
@@ -124,8 +115,7 @@ const Header = () => {
                                     >
                                         {t('services.extreme')}
                                     </a>
-                                </div>
-                            )}
+                                </div>)}
                         </div>
 
                         <button
@@ -137,7 +127,7 @@ const Header = () => {
                     </nav>
                     {/* Контакты и соцсети для десктопа */}
                     <div className="hidden lg:flex items-center space-x-6">
-                    <LanguageSwitcher/>
+                        <LanguageSwitcher/>
                         <a
                             href="tel:+74953333333"
                             className="font-medium text-xl hover:text-white transition-colors"
@@ -182,8 +172,7 @@ const Header = () => {
             {/* Мобильное меню */}
 
             <AnimatePresence>
-                {menuOpen && (
-                    <motion.div
+                {menuOpen && (<motion.div
                         initial={{x: '100%'}}
                         animate={{x: 0}}
                         exit={{x: '100%'}}
@@ -214,13 +203,11 @@ const Header = () => {
                                     onClick={() => setIsServicesOpen(!isServicesOpen)}
                                 >
                                     {t('header.services')}
-                                    <FaChevronDown className={`transition-transform ${
-                                        isServicesOpen ? 'rotate-180' : ''
-                                    }`}/>
+                                    <FaChevronDown
+                                        className={`transition-transform ${isServicesOpen ? 'rotate-180' : ''}`}/>
                                 </button>
 
-                                {isServicesOpen && (
-                                    <div className="mt-2 ml-4 space-y-2">
+                                {isServicesOpen && (<div className="mt-2 ml-4 space-y-2">
                                         <a
                                             href="#cultural"
                                             className="block py-1"
@@ -242,8 +229,7 @@ const Header = () => {
                                         >
                                             {t('services.extreme')}
                                         </a>
-                                    </div>
-                                )}
+                                    </div>)}
                             </div>
 
                             <button
@@ -294,7 +280,7 @@ const Header = () => {
             {isPopupOpen && (
                 <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
                     <div className="bg-white rounded-lg max-w-md w-full shadow-xl">
-                        <div className="p-6">
+                        <div className="p-2 md:p-6">
                             <div className="flex justify-between items-center mb-4">
                                 <h3 className="text-xl font-bold">{t('header.applicationForm')}</h3>
                                 <button
@@ -358,10 +344,8 @@ const Header = () => {
                             </form>
                         </div>
                     </div>
-                </div>
-            )}
-        </>
-    );
+                </div>)}
+        </>);
 };
 
 export default Header;

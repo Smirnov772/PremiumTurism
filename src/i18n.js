@@ -4,9 +4,9 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 // Импорт переводов
-import enTranslations from './locales/en/translations.json';
-import ruTranslations from './locales/ru/translations.json';
-import arTranslations from './locales/ar/translations.json'; // Добавляем арабский
+import enTranslations from '../public/locales/en/translations.json';
+import ruTranslations from '../public/locales/ru/translations.json';
+import arTranslations from '../public/locales/ar/translations.json'; // Добавляем арабский
 
 const resources = {
 	en: {

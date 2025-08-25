@@ -1,8 +1,51 @@
 .hero {
-    background-image: url('../../../assets/image/hero.webp');
+    background-image: url('../../../assets/image/kareta.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh; /* или нужная высота */
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hero-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-content {
+    max-width: 700px;
+    text-align: right;
+    color: #D3D3D3;
+    padding: 40px 0;
+}
+
+
+/* Safari-specific fixes */
+@media not all and (min-resolution: 0.001dpcm) {
+    @supports (-webkit-appearance: none) {
+        .hero {
+            height: -webkit-fill-available;
+        }
+
+        .hero-content {
+            -webkit-backdrop-filter: none;
+            backdrop-filter: none;
+        }
+    }
+}
+
+/* Fallbacks for older browsers */
+@supports not (display: grid) {
+    .hero-container {
+        display: block;
+    }
 }
